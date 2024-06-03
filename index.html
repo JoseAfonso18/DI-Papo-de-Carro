@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papo de Carro</title>
+  <link rel="icon" href="./assets/imagens/IconeSite.svg">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.5.2-web/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/estilo.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row mt-4">
+      <div class="col-lg-8">
+        <h1>
+          <img src="./assets/imagens/LogoSite.svg" alt="Logo do Site" width="180">
+          <span class="logo">PAPO DE CARRO</span>
+        </h1>
+      </div>
+      <div class="col-lg-4 mt-4" Align="right">
+        <a href="#" class="btn btn-danger">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" class="btn btn-primary">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" class="btn btn-info">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#" class="btn btn-primary">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#" class="btn btn-secondary">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Noticias
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Internacional</a></li>
+                    <li><a class="dropdown-item" href="#">Nacional</a></li>
+                    <li><a class="dropdown-item" href="#">Automóveis</a></li>
+                    <li><a class="dropdown-item" href="#">Motores</a></li>
+                  </ul>
+                </li>
+                <div class="acessibilidade">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Acessibilidade
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#" id="increase-font">A+</a></li>
+                      <li><a class="dropdown-item" href="#" id="decrease-font">A-</a></li>
+                      <li><a class="dropdown-item" href="#" id="reset-font">A</a></li>
+                      <li><a class="dropdown-item" href="#" id="toggle-theme">Tema</a></li>
+                    </ul>
+                  </li>
+                </div>
+
+              </ul>
+              <a href="#" class="btn btn-primary me-2">
+                <i class="fa-regular fa-user"></i>
+              </a>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+                <button class="btn btn-secondary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-lg-8">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/imagens/Puma.png" class="d-block w-100"
+                alt="Volkswagen Brasília Puma marrom estacionado na beira da estrada em frente a um prédio com painéis solares no telhado.">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Conheça um Pouco da Brasília Puma</h5>
+                <p>Este carro clássico, com sua pintura original Ocre e interior em couro impecável, nos transporta para
+                  uma época de elegância e simplicidade. Sua baixa quilometragem e estado de conservação impecável o
+                  tornam uma verdadeira joia para colecionadores.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/imagens/LaFerrari.jpg" class="d-block w-100"
+                alt="LaFerrari vermelho estacionado em frente a uma parede branca com o logotipo da Ferrari.">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Única LaFerrari do Brasil terá o IPVA mais caro de 2024</h5>
+                <p>Manter uma coleção de supercarros na garagem pode custar o preço de outro supercarro, anualmente, só
+                  com impostos. São os carros exóticos mais raros do Brasil que lideram a lista dos IPVA (Imposto sobre
+                  a Propriedade de Veículos Automotores) mais caros de 2024.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/imagens/Jesko.png" class="d-block w-100" alt="Um Koenigsegg Jesko laranja estacionado em uma pista de pouso.">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Arrancou a produção do Koenigsegg Jesko que atinge 531 km/h</h5>
+                <p>A Koenigsegg produz desportivos fabulosos, potentes e rápidos, mas nenhum rivaliza em velocidade com
+                  o Jesko, cuja produção arrancou agora. Ultrapassa 500 km/h e só vão ser produzidas 125 unidades.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Carros Híbridos: Mitos e Verdades Sobre Essa Tecnologia
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Os carros híbridos têm ganhado popularidade nos últimos anos como uma alternativa mais eficiente em
+                termos de combustível e ambientalmente consciente aos veículos movidos exclusivamente a gasolina. No
+                entanto, ainda existem muitos mitos e equívocos em torno dessa tecnologia. Vamos explorar alguns dos
+                mitos comuns e separar as verdades sobre os carros híbridos:
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Primeira Tesla Cybertruck do Brasil demorou 5 anos e custou R$ 1,4 mi
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Já temos a primeira Tesla Cybertruck do Brasil. O registro foi feito pelo perfil @voj_photography do
+                Instagram, em Balneário Camboriú, litoral de Santa Catarina. A responsável pela importação foi a Miami
+                Imports e a picape chegou nesta terça-feira (21) à sede da loja. A importadora catarinense passou à
+                frente de concorrentes, como a Direct Imports, que já anunciado a importação da Cybertruck em março, por
+                R$ 1,67 milhão.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                McLaren Senna e carros da F1 ganham pinturas que homenageiam Senna
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Em um tributo comovente aos 30 anos da morte de Ayrton Senna, a McLaren adotou cores especiais em seus
+                carros de Fórmula 1 e em um modelo Senna da marca. As pinturas, inspiradas no icônico capacete do
+                piloto, foram apresentadas no Grande Prêmio de Mônaco, em maio de 2024.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-lg-8">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="./assets/imagens/PicapeSUV.jpeg" class="card-img-top" alt="Uma Chevrolet S10 2025 em uma estrada de terra.">
+              <div class="card-body">
+                <h5 class="card-title">Novidades no mundo automotivo: Picape renovada e SUV 100% elétrico</h5>
+                <p class="card-text">O mundo automotivo está em constante evolução, e a cada dia novas tecnologias e
+                  modelos surgem para atender às demandas dos consumidores. Nesta semana, duas novidades chamaram a
+                  atenção: a picape Chevrolet S10 renovada e o SUV 100% elétrico Volvo EX30.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/imagens/Volvo.png" class="card-img-top" alt="Um caminhão Volvo FH 540 Globetrotter 6x4 na cor azul, com cabine alta e carreta acoplado, dirigindo em uma rodovia.">
+              <div class="card-body">
+                <h5 class="card-title">Com mercado de caminhões em alta, Paraná alcança novas marcas expressivas no
+                  setor</h5>
+                <p class="card-text">Com mercado de caminhões em alta, Paraná alcança novas marcas expressivas no setor.
+                  Em 2023, quase 12 mil novos caminhões foram licenciados no Paraná, segundo a Fenabrave. O número
+                  equivale a 9,58% de todos os veículos pesados deste segmento no Brasil, que totalizaram 104 mil no
+                  mesmo período.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/imagens/Fiat.jpg" class="card-img-top" alt="Um Fiat Cronos Drive 1.3 2020 vermelho estacionado em um estacionamento.">
+              <div class="card-body">
+                <h5 class="card-title">Fiat comemora 200 mil unidades comercializadas do Cronos no Brasil</h5>
+                <p class="card-text">O Fiat Cronos comemora um marco importante no mercado automobilístico brasileiro,
+                  alcançando a marca de 200 mil unidades vendidas desde seu lançamento há seis anos. Este sedã, que é
+                  comercializado em dez países da América Latina, continua a ser uma da principais escolhas entre os
+                  sedãs compactos.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./assets/imagens/Scania.jpg" class="card-img-top" alt="Um caminhão Scania X-Gás na cor verde, parado em uma rodovia.">
+              <div class="card-body">
+                <h5 class="card-title">Scania X-gás tem motor mais potente, maior autonomia e capacidade de carga</h5>
+                <p class="card-text">A Scania está renovando a sua família de caminhões a gás pesados. A partir de
+                  agora, a marca lança no mercado os modelos G 420 cv e G 460 a gás. Aumentando as potências
+                  dos dois caminhões para 420 cv e 460 cv.
+                  Dessa forma, o caminhão a gás de 410 cv sai de linha. A Scania passa a recomendar para
+                  os novos modelos a cabine G.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div>
+          <h4 class="fst-italic">Posts Recentes</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                href="#">
+                <img class="bd-placeholder-img" src="./assets/imagens/Raptor.png" alt="Um Ford Ranger Raptor 2023 na cor cinza, com pneus grandes e suspensão elevada, saltando em uma duna de areia" width="170" height="96">
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Picape mais rápida do Brasil "Ford Ranger Raptor"</h6>
+                  <small class="text-body-secondary">Maio 23, 2024</small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                href="#">
+                <img class="bd-placeholder-img" src="./assets/imagens/CyberTruck.jpg" alt="Um Tesla Cybertruck na cor cinza fosco, sendo rebocado por um caminhão de reboque em uma rua da cidade." width="170" height="96">
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Primeiro Tesla Cybertruck do Brasil</h6>
+                  <small class="text-body-secondary">Maio 21, 2024</small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                href="#">
+                <img class="bd-placeholder-img" src="./assets/imagens/McSenna.png" alt="Uma McLaren Senna com plotagem em homenagem ao grande piloto Ayrton Senna" width="170" height="96">
+                <div class="col-lg-8">
+                  <h6 class="mb-0">McLaren Senna faz homenagem a piloto para GP de Mônaco</h6>
+                  <small class="text-body-secondary">Maio 18, 2024</small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                href="#">
+                <img class="bd-placeholder-img" src="./assets/imagens/M3.png" alt="BMW M3 CS com capo aberto mostrando seu potente motor" width="170" height="96">
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Novo BMW M3 CS chega ao Brasil com 550 cv por R$ 1,3 milhão</h6>
+                  <small class="text-body-secondary">Maio 15, 2024</small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                href="#">
+                <img class="bd-placeholder-img" src="./assets/imagens/Chevrolet.png" alt=" Chevrolet híbrido Equinox 2025 na cor verde, com rodas pretas e teto solar." width="170" height="96">
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Primeiro Chevrolet híbrido será chinês e chega ao Brasil em 2025</h6>
+                  <small class="text-body-secondary">Maio 12, 2024</small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sobre</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Noticias</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contato</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Acessibilidade</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">&copy; 2024 Papo de Carro</p>
+      </footer>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <script src="./assets/js/menu.js"></script>
+    <script src="acessibilidade.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
